@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
     outline: 0;
-    /* text-rendering: optimizeLegibility; */
 }
 :root{
     --bg-color : #191919;
@@ -13,13 +12,11 @@ body{
     background: var(--bg-color);
 }
 .container{
-    /* background: var(--bg-color); */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .right-side{
-    border-left: 0px solid white;
     height: 100%;
     width: 50%;
     padding-top: 12.2rem;
@@ -53,7 +50,6 @@ body{
     width: 9rem;
     height: 6.4rem;
     position: relative;
-    
 }
 .sholder {
     background: var(--accent-color);
@@ -83,7 +79,6 @@ body{
     bottom: -40%;
     right: -1rem;
     border-radius: 100%;
-    /* border-top-left-radius: 90%; */
     transform: rotate(-15deg);
     z-index: 100;
 }
@@ -110,7 +105,4 @@ body{
    .container{
        transform: scale(0.7);
    }
-  .wing-expand{
-      /* overflow: hidden; */
-  }
 }
