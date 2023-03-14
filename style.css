@@ -23,6 +23,7 @@ body{
     height: 100%;
     width: 50%;
     padding-top: 12.2rem;
+    margin-left: -0.04rem;
 }
 .left-side{
     transform: rotateY(-180deg);
@@ -45,6 +46,7 @@ body{
     width: 1.2rem;
     height: 2.5rem;
     position: relative ;
+    margin-bottom: -0.04rem;
 }
 .wing{
     background: var(--accent-color);
@@ -58,8 +60,9 @@ body{
     height: 2rem;
     width: 2rem;
     position: absolute;
-    top: -2rem;
+    top: -1.967rem;
     right:46.8%;
+    z-index: -100;
 }
 .inner{
     height:100%;
@@ -68,7 +71,9 @@ body{
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background: var(--bg-color)
+    background: var(--bg-color);
+    margin-top: -0.03rem;
+    margin-left: -0.03rem;
 }
 .bottom-circle{
     background: var(--bg-color);
